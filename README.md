@@ -42,6 +42,13 @@ Data files used for tests are in the [data_test](data_test) folder. The interact
 
 - Ran `smoke_test.py` which exercises add, register, and save flows. Output files for the smoke test are in the `screenshots/` folder.
 
+## Screenshots
+
+Smoke test output and terminal captures (PNG):
+
+![Smoke test output 1](screenshots/Screenshot%20from%202026-06-11%2002-02-28.png)
+
+![Smoke test output 2](screenshots/Screenshot%20from%202026-06-11%2002-05-39.png)
 ## GitHub repository link
 
 Add your repository URL here: https://github.com/your-username/your-repo

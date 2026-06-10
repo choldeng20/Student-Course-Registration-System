@@ -1,0 +1,17 @@
+$ python3 smoke_test.py
+Expected error on double registration: Student already registered for this course
+Students in PY101:
+Student ID: S001
+Name: Alice
+Email: alice@example.com
+Phone: 0710000000
+Student ID: S002
+Name: Bob
+Email: bob@example.com
+Phone: 0710000001
+Courses for S001:
+Course ID: PY101
+Course Name: Python Fundamentals
+Trainer: Mr. Joseph
+Capacity: 2 students
+Saved data to data_test/

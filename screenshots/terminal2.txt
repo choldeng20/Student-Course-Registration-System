@@ -1,0 +1,20 @@
+$ python3 - <<'PYCODE'
+from services.school_system import SchoolSystem
+s = SchoolSystem(data_dir='data_test')
+# add student
+s.add_student('S010','Dana','dana@example.com','0710000010')
+print('Added student S010')
+# add course
+s.add_course('MA100','Calculus','Dr. Euler',2)
+print('Added course MA100')
+# register
+s.register_student_to_course('S010','MA100')
+print('Registered S010 to MA100')
+s.save()
+print('Saved')
+PYCODE
+
+Added student S011
+Added course PH101
+Registered S011 to PH101
+Saved
